@@ -32,3 +32,13 @@ Microsoft SQL Server can be used through the Azure SQL Database service, where t
 
 #### Storage account endpoints
 A storage account provides a unique namespace in Azure for your data. Every object that you store in Azure Storage has a URL address that includes your unique account name. The combination of the account name and the service endpoint forms the endpoints for your storage account.
+
+#### Example udemy 
+data analysis of udemy -> where it needs to store the videos , descripition of the video ,ratings and the price.
+Udemy needs to store structured information about courses, instructors, ratings, and prices, potentially in a relational database. Video content could be stored using Azure Blob storage. Additionally, Udemy must analyze data on student purchases to enhance services and improve the platform. This chapter encourages understanding the various aspects of data storage, usage, and analysis in applications.
+
+## Azure Data Lake Gen2 Storage Account.
+Azure Data Lake Storage Gen2 is a set of capabilities built on Azure Blob Storage, designed for big data analytics. It merges the features of Azure Data Lake Storage Gen1 with Blob Storage, providing file system semantics, file-level security, scalability, low-cost tiered storage, and high availability/disaster recovery.
+
+Data Lake Storage Gen2 serves as the foundation for enterprise data lakes on Azure, managing petabytes of data with high throughput. A data lake is a centralized repository for storing all types of data, both structured and unstructured, in their raw formats, facilitating easy access and analysis.
+
