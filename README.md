@@ -25,6 +25,10 @@ different services:
   so you could upload a file onto the service.That file is treated as a binary object.This service is good when you want to upload objects such as your audio files, your video files, images etc.
   3. File services: If you want to just have a file share in place,you know, you could have file shares that could be connected onto different systems. You can make use of the File service in the Azure storage account.
   4. Queue service: If you have messages that need to be sent by different components of a distribute application, you can make use of the Queue service.
+     
+#### Microsoft Sql Server :
+Microsoft SQL Server can be used through the Azure SQL Database service, where the underlying server management is handled for you. This service includes database software with features like high availability, automatic backups, and restore options. It allows you to easily host your databases.
 
-CREATE  A STORAGE ACCOUNT :
- 
+
+#### Storage account endpoints
+A storage account provides a unique namespace in Azure for your data. Every object that you store in Azure Storage has a URL address that includes your unique account name. The combination of the account name and the service endpoint forms the endpoints for your storage account.
