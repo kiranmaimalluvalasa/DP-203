@@ -42,3 +42,19 @@ Azure Data Lake Storage Gen2 is a set of capabilities built on Azure Blob Storag
 
 Data Lake Storage Gen2 serves as the foundation for enterprise data lakes on Azure, managing petabytes of data with high throughput. A data lake is a centralized repository for storing all types of data, both structured and unstructured, in their raw formats, facilitating easy access and analysis.
 
+## Azure Synapse service.
+use : storing your data warehouse 
+
+Azure SQL Database is a fully managed relational database service optimized for transactional workloads and general-purpose applications. It supports /*OLTP(online transaction processing)*/ scenarios with traditional SQL Server-based architecture, offering scalability through vertical and horizontal scaling. 
+
+Azure SQL Data Warehouse (Azure Synapse Analytics) is a cloud-based data warehouse service designed for analytical processing and big data analytics. It utilizes massively parallel processing (MPP) architecture for scalable query performance across large datasets, making it ideal for /*OLAP(online analytical processing)*/  workloads and complex analytics tasks.
+
+
+
+## what is difference between olap and oltp in azure
+
+Online analytical processing (OLAP) is a technology that organizes large business databases and supports complex analysis. It can be used to perform complex analytical queries without negatively affecting transactional systems.
+
+The databases that a business uses to store all its transactions and records are called online transaction processing (OLTP) databases. These databases usually have records that are entered one at a time. Often they contain a great deal of information that is valuable to the organization. The databases that are used for OLTP, however, were not designed for analysis. Therefore, retrieving answers from these databases is costly in terms of time and effort. OLAP systems were designed to help extract this business intelligence information from the data in a highly performant way. This is because OLAP databases are optimized for heavy read, low write workloads.
+
+Diagram that shows the OLAP logical architecture in Azure.
