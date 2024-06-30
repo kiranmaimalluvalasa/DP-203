@@ -73,4 +73,7 @@ User Roles: In Microsoft Entra ID, you can create different users and assign the
 Assigning Roles: You assign roles to users to control what they can access. There are built-in roles like contributor, owner, and reader.
 Storage Blob Data Reader Role: We assigned this role to our Azure admin user to allow reading data from storage blobs. This role has specific permissions needed for accessing the data.
 
+### what is difference btwn dedicated sql pool and serverless sql pool
+
+
 
