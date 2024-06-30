@@ -48,7 +48,14 @@ use : storing your data warehouse
 Azure SQL Database is a fully managed relational database service optimized for transactional workloads and general-purpose applications. It supports /*OLTP(online transaction processing)*/ scenarios with traditional SQL Server-based architecture, offering scalability through vertical and horizontal scaling. 
 
 Azure SQL Data Warehouse (Azure Synapse Analytics) is a cloud-based data warehouse service designed for analytical processing and big data analytics. It utilizes massively parallel processing (MPP) architecture for scalable query performance across large datasets, making it ideal for /*OLAP(online analytical processing)*/  workloads and complex analytics tasks.
-
+#### example: 
+A data warehouse is a repository that can be used to store structured data .
+you can use the sql query lang to work with the data in the data warehouse. by why sql ? 
+online course platfrom as web application .this use a sql database
+-> course
+-> student 
+-> order 
+This is an online transaction processing system where transactions are continually added to the database, particularly on a popular platform where purchases occur frequently. However, for strategic decision-making and business insights, such as improving user experiences or forecasting market trends, senior management requires analysis of both current and historical transactional data. To avoid overloading the transactional system, which is optimized for real-time transactions, organizations use a SQL data warehouse. Unlike transactional databases, SQL data warehouses are designed for online analytical processing (OLAP), handling large datasets and supporting complex queries across historical and current data sources without impacting operational systems.
 
 
 ## what is difference between olap and oltp in azure
@@ -57,4 +64,13 @@ Online analytical processing (OLAP) is a technology that organizes large busines
 
 The databases that a business uses to store all its transactions and records are called online transaction processing (OLTP) databases. These databases usually have records that are entered one at a time. Often they contain a great deal of information that is valuable to the organization. The databases that are used for OLTP, however, were not designed for analysis. Therefore, retrieving answers from these databases is costly in terms of time and effort. OLAP systems were designed to help extract this business intelligence information from the data in a highly performant way. This is because OLAP databases are optimized for heavy read, low write workloads.
 
-Diagram that shows the OLAP logical architecture in Azure.
+### Microsoft Entra Id and permissions
+
+Microsoft Entra ID: When you create an Azure account, you get Microsoft Entra ID (formerly Azure Active Directory), which manages user authentication and authorization.
+User Roles: In Microsoft Entra ID, you can create different users and assign them roles. For example, in a company, different users need access to different resources in Azure.
+
+###### Role-Based Access Control (RBAC):
+Assigning Roles: You assign roles to users to control what they can access. There are built-in roles like contributor, owner, and reader.
+Storage Blob Data Reader Role: We assigned this role to our Azure admin user to allow reading data from storage blobs. This role has specific permissions needed for accessing the data.
+
+
