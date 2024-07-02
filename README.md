@@ -74,6 +74,6 @@ Assigning Roles: You assign roles to users to control what they can access. Ther
 Storage Blob Data Reader Role: We assigned this role to our Azure admin user to allow reading data from storage blobs. This role has specific permissions needed for accessing the data.
 
 ### what is difference btwn dedicated sql pool and serverless sql pool
-
+### what is difference betwwen dedicated external sql pool and dedicated sql pool 
 we can create the external tables in dedicated sql pool and serverless sql pool - > why we need to create the external tables ?
 
