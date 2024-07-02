@@ -80,5 +80,6 @@ we can create the external tables in dedicated sql pool and serverless sql pool 
 ## Data warehouse:
 split into Fact and Dimension tables
 these tables either conform onto a star or snowflake schema
+Fact tables are meant to store quantitative data, this a data that can be measured
 
 
