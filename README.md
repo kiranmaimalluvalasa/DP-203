@@ -77,3 +77,8 @@ Storage Blob Data Reader Role: We assigned this role to our Azure admin user to 
 ### what is difference betwwen dedicated external sql pool and dedicated sql pool 
 we can create the external tables in dedicated sql pool and serverless sql pool - > why we need to create the external tables ?
 
+## Data warehouse:
+split into Fact and Dimension tables
+these tables either conform onto a star or snowflake schema
+
+
